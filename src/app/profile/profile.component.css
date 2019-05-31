@@ -3,11 +3,17 @@ div{
     border-radius: 15px;
     box-shadow: 0px 0px 10px 0px rgba(204,204,204,1);
     width:400px;
+    display:flex;
+    flex-direction: column;
 }
 button{
     background-color:#505355;
     color:white;
-}
+    border-style: none;
+    border-radius:15px; 
+    height:40px;
+    margin-top: 23px;
+   }
 button:hover{
     background-color:#5BECD8;
-   }
+}

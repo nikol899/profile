@@ -5,13 +5,28 @@ form{
     box-shadow: 0px 0px 10px 0px rgba(204,204,204,1);
     width:400px;
     border-radius:15px;
+    display: flex;
+    flex-direction: column;
+    padding:40px;
 }
 input,textarea{
-    padding: 14px;
+    padding: 8px;
+    border-radius:15px;
+    border-style: none;
 }
 label{
     color:#1ECEFD;
+    margin-top:14px;
 }
 button:hover{
     background-color:#5BECD8;
+    border-radius:15px;
+   }
+   button{
+    background-color:#505355;
+    color:white;
+    border-style: none;
+    border-radius:15px; 
+    height:40px;
+    margin-top: 23px;
    }
