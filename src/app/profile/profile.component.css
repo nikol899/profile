@@ -12,8 +12,16 @@ button{
     border-style: none;
     border-radius:15px; 
     height:40px;
-    margin-top: 23px;
+    margin:23px;
+    
    }
 button:hover{
     background-color:#5BECD8;
+}
+img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+h3,p{
+    margin-left: 29px;
 }
